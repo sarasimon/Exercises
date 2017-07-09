@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class Diamond {
 
+    private String output;
+
     public String rightTriangle(int lines) {
-        String output = "";
+        output = "";
         for (int i = 1; i < lines; i++) {
             output += buildLine(i, "*") + "\n";
         }
@@ -11,26 +13,28 @@ public class Diamond {
         return output;
     }
 
-    public String leftTriangle(int lines){
-        String output = "";
+    public String leftTriangle(int lines) {
+        output = "";
         for (int i = 1; i < lines; i++) {
-            output += buildLine(lines - i, " ") + buildLine(i, "*")+ "\n";
+            output += buildLine(lines - i, " ") + buildLine(i, "*") + "\n";
         }
         output += buildLine(lines, "*");
         return output;
     }
 
-    public String isoscelesTriangle(int lines){
-        String left = leftTriangle(lines);
-        String right = rightTriangle(lines - 1);
-        Scanner leftScanner = new Scanner(left);
-        Scanner rightScanner = new Scanner(right);
+    public String isoscelesTriangle(int lines) {
+        Scanner leftScanner = new Scanner(leftTriangle(lines));
+        Scanner rightScanner = new Scanner(rightTriangle(lines - 1));
 
-        String result = leftScanner.nextLine();
-        while (leftScanner.hasNextLine()){
-            result += "\n" + leftScanner.nextLine() + rightScanner.nextLine();
+        output = leftScanner.nextLine();
+        while (leftScanner.hasNextLine()) {
+            output += "\n" + leftScanner.nextLine() + rightScanner.nextLine();
         }
-        return result;
+        return output;
+    }
+
+    public String diamondTriangle(int lines) {
+        return new StringBuilder(isoscelesTriangle(lines)).reverse().reverse().toString();
     }
 
     private String buildLine(int size, String character) {
