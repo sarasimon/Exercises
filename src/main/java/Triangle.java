@@ -1,7 +1,5 @@
 public class Triangle {
 
-    private String _output;
-
     public void printOneAsterisk() {
         print("*");
     }
@@ -21,11 +19,11 @@ public class Triangle {
     }
 
     private void print(String output) {
-        System.out.println(output.trim());
+        System.out.println(output);
     }
 
     private String buildLine(int size, String character) {
-        _output = "";
+        String _output = "";
         for (int i = 0; i < size; i++) {
             _output = _output + character;
         }

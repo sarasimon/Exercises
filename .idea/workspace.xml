@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a97501da-6520-4708-917e-eb5640b7c61a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Triangle.class" afterPath="$PROJECT_DIR$/target/classes/Triangle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TriangleTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TriangleTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Diamond.java" afterPath="$PROJECT_DIR$/src/main/java/Diamond.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/Triangle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TriangleTest.java" afterPath="$PROJECT_DIR$/src/test/java/TriangleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DiamondTest.java" afterPath="$PROJECT_DIR$/src/test/java/DiamondTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,40 +31,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
               <folding>
-                <element signature="e#89#90#0" expanded="true" />
-                <element signature="e#115#116#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#299#300#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#60#61#0" expanded="true" />
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+            <state relative-caret-position="570">
+              <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TriangleTest.java">
+      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="-30">
+              <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -99,6 +98,8 @@
         <option value="$PROJECT_DIR$/src/main/java/EasiestExerciseEver.java" />
         <option value="$PROJECT_DIR$/src/test/java/TriangleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DiamondTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Diamond.java" />
       </list>
     </option>
   </component>
@@ -241,15 +242,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TriangleTest">
-    <configuration default="false" name="TriangleTest.testPrintOneAsterisk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DiamondTest">
+    <configuration default="false" name="DiamondTest.testLeftTriangle3Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
-      <option name="METHOD_NAME" value="testPrintOneAsterisk" />
+      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="METHOD_NAME" value="testLeftTriangle3Lines" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -263,14 +264,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TriangleTest.testPrintLineOf6Asterisk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DiamondTest.testIsocelesTriangle3Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
-      <option name="METHOD_NAME" value="testPrintLineOf6Asterisk" />
+      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="METHOD_NAME" value="testIsocelesTriangle3Lines" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -284,14 +285,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TriangleTest.testVerticalLineOf6Asterisk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DiamondTest.testIsoscelesTriangle3Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
-      <option name="METHOD_NAME" value="testVerticalLineOf6Asterisk" />
+      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="METHOD_NAME" value="testIsoscelesTriangle3Lines" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -305,14 +306,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TriangleTest.testRightTriangle6Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DiamondTest.testIsoscelesTriangle4Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
-      <option name="METHOD_NAME" value="testRightTriangle6Lines" />
+      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="METHOD_NAME" value="testIsoscelesTriangle4Lines" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -326,13 +327,13 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="DiamondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TriangleTest" />
+      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -645,19 +646,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TriangleTest.testPrintOneAsterisk" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TriangleTest.testPrintLineOf6Asterisk" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleTest.testVerticalLineOf6Asterisk" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TriangleTest.testRightTriangle6Lines" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TriangleTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest.testLeftTriangle3Lines" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsocelesTriangle3Lines" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle3Lines" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle4Lines" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TriangleTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TriangleTest.testRightTriangle6Lines" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TriangleTest.testVerticalLineOf6Asterisk" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TriangleTest.testPrintOneAsterisk" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TriangleTest.testPrintLineOf6Asterisk" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle4Lines" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle3Lines" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsocelesTriangle3Lines" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.testLeftTriangle3Lines" />
       </list>
     </recent_temporary>
   </component>
@@ -706,35 +707,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TriangleTest - 2017.07.09 at 20h 35m 42s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
+    <history-entry file="DiamondTest - 2017.07.09 at 23h 27m 48s.xml">
+      <configuration name="DiamondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest - 2017.07.09 at 20h 39m 03s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
+    <history-entry file="DiamondTest - 2017.07.09 at 23h 28m 42s.xml">
+      <configuration name="DiamondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest - 2017.07.09 at 20h 41m 43s.xml">
-      <configuration name="TriangleTest" configurationId="JUnit" />
+    <history-entry file="DiamondTest - 2017.07.09 at 23h 30m 31s.xml">
+      <configuration name="DiamondTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testRightTriangle6Lines - 2017.07.09 at 20h 22m 53s.xml">
-      <configuration name="TriangleTest.testRightTriangle6Lines" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle3Lines - 2017.07.09 at 23h 19m 07s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle3Lines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testRightTriangle6Lines - 2017.07.09 at 20h 24m 25s.xml">
-      <configuration name="TriangleTest.testRightTriangle6Lines" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle3Lines - 2017.07.09 at 23h 19m 41s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle3Lines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testRightTriangle6Lines - 2017.07.09 at 20h 25m 14s.xml">
-      <configuration name="TriangleTest.testRightTriangle6Lines" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle3Lines - 2017.07.09 at 23h 20m 00s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle3Lines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testRightTriangle6Lines - 2017.07.09 at 20h 26m 27s.xml">
-      <configuration name="TriangleTest.testRightTriangle6Lines" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle3Lines - 2017.07.09 at 23h 20m 25s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle3Lines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testRightTriangle6Lines - 2017.07.09 at 20h 26m 56s.xml">
-      <configuration name="TriangleTest.testRightTriangle6Lines" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle4Lines - 2017.07.09 at 23h 21m 54s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle4Lines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testVerticalLineOf6Asterisk - 2017.07.09 at 20h 20m 25s.xml">
-      <configuration name="TriangleTest.testVerticalLineOf6Asterisk" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle4Lines - 2017.07.09 at 23h 22m 10s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle4Lines" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testVerticalLineOf6Asterisk - 2017.07.09 at 20h 20m 40s.xml">
-      <configuration name="TriangleTest.testVerticalLineOf6Asterisk" configurationId="JUnit" />
+    <history-entry file="DiamondTest_testIsoscelesTriangle4Lines - 2017.07.09 at 23h 27m 39s.xml">
+      <configuration name="DiamondTest.testIsoscelesTriangle4Lines" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -762,7 +763,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3378608" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5959253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -780,7 +781,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -798,8 +801,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="392">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="e#60#61#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -808,26 +838,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state relative-caret-position="570">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#89#90#0" expanded="true" />
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
