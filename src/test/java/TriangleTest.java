@@ -31,8 +31,22 @@ public class TriangleTest {
     @Test
     public void testPrintLineOf6Asterisk(){
         Triangle triangle = new Triangle();
-        triangle.printOneAsterisk();
-        assertEquals("*", outContent.toString().trim());
+        triangle.printHorizontalLine(6);
+        assertEquals("******", outContent.toString().trim());
+    }
+
+    @Test
+    public void testVerticalLineOf6Asterisk(){
+        Triangle triangle = new Triangle();
+        triangle.printVerticalLine(6);
+        assertEquals("*\n*\n*\n*\n*\n*", outContent.toString().trim());
+    }
+
+    @Test
+    public void testRightTriangle6Lines(){
+        Triangle triangle = new Triangle();
+        triangle.printRightTriangle(6);
+        assertEquals("*\n**\n***\n****\n*****\n******", outContent.toString().trim());
     }
 
 }

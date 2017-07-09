@@ -1,16 +1,34 @@
 public class Triangle {
 
-    private String output;
+    private String _output;
 
     public void printOneAsterisk() {
-        output = "*";
-        System.out.println(output);
+        print("*");
     }
 
-    public void printHoritzontalLine(int size) {
-        for (int i = 0; i < size; i++) {
-            output = output + "*";
+    public void printHorizontalLine(int size) {
+        print(buildLine(size, "*"));
+    }
+
+    public void printVerticalLine(int size) {
+        print(buildLine(size, "*\n"));
+    }
+
+    public void printRightTriangle(int lines) {
+        for (int i = 1; i <= lines; i++) {
+            printHorizontalLine(i);
         }
-        System.out.println(output);
+    }
+
+    private void print(String output) {
+        System.out.println(output.trim());
+    }
+
+    private String buildLine(int size, String character) {
+        _output = "";
+        for (int i = 0; i < size; i++) {
+            _output = _output + character;
+        }
+        return _output;
     }
 }
