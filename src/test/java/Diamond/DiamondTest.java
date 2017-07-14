@@ -1,3 +1,6 @@
+package Diamond;
+
+import Diamond.Diamond;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;

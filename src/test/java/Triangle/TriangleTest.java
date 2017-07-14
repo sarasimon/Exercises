@@ -1,3 +1,6 @@
+package Triangle;
+
+import Triangle.Triangle;
 import org.junit.*;
 import java.io.*;
 import static org.junit.Assert.*;

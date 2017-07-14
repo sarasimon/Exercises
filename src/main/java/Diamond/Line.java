@@ -1,3 +1,5 @@
+package Diamond;
+
 public abstract class Line {
 
     String buildLine(int size, String character) {

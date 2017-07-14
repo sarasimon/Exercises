@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a97501da-6520-4708-917e-eb5640b7c61a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Diamond.java" afterPath="$PROJECT_DIR$/src/main/java/Diamond.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/DiamondTest.java" afterPath="$PROJECT_DIR$/src/test/java/DiamondTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FIzzBuzz/FizzBuzz.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/FIzzBuzz/MyHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/FIzzBuzz/FizzBuzzTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Diamond.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/LeftLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Line.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/RightLine.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Triangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/DiamondTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/TriangleTest.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Diamond.java" afterPath="$PROJECT_DIR$/src/main/java/Diamond/Diamond.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/LeftLine.java" afterPath="$PROJECT_DIR$/src/main/java/Diamond/LeftLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Line.java" afterPath="$PROJECT_DIR$/src/main/java/Diamond/Line.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/RightLine.java" afterPath="$PROJECT_DIR$/src/main/java/Diamond/RightLine.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/Triangle.java" afterPath="$PROJECT_DIR$/src/main/java/Triangle/Triangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/DiamondTest.java" afterPath="$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TriangleTest.java" afterPath="$PROJECT_DIR$/src/test/java/Triangle/TriangleTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,84 +34,93 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Triangle/Triangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Triangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-              <folding>
-                <element signature="e#497#498#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Diamond.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Diamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
+            <state relative-caret-position="30">
+              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
-                <element signature="e#94#95#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="LeftLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LeftLine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/LeftLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            <state relative-caret-position="0">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#82#83#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Line.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="RightLine.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RightLine.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/RightLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FizzBuzz.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FIzzBuzz/FizzBuzz.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
-                <element signature="e#83#84#0" expanded="true" />
-                <element signature="e#158#159#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#145#162#0" expanded="true" />
+                <element signature="e#392#400#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TriangleTest.java">
+      <file leaf-file-name="MyHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FIzzBuzz/MyHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FizzBuzzTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FIzzBuzz/FizzBuzzTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,11 +128,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
+      <file leaf-file-name="TriangleTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Triangle/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+            <state relative-caret-position="660">
+              <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiamondTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,9 +155,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,13 +176,20 @@
         <option value="$PROJECT_DIR$/src/test/java/EasiestExerciseEverTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/EasiestExerciseEver.java" />
         <option value="$PROJECT_DIR$/src/test/java/TriangleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Triangle.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/main/java/RightLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Line.java" />
         <option value="$PROJECT_DIR$/src/main/java/LeftLine.java" />
         <option value="$PROJECT_DIR$/src/main/java/Diamond.java" />
         <option value="$PROJECT_DIR$/src/test/java/DiamondTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Triangle/Triangle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Triangle/TriangleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Diamond/RightLine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FIzzBuzz/Handler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FIzzBuzz/MyHandler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FIzzBuzz/FizzBuzzTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FIzzBuzz/FizzBuzz.java" />
       </list>
     </option>
   </component>
@@ -180,7 +222,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,6 +245,58 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FIzzBuzz" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -268,9 +361,62 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Triangle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FIzzBuzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Exercises" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -286,7 +432,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="FIzzBuzz" />
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Diamond" />
+      <recent name="Triangle" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -307,35 +458,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiamondTest">
-    <configuration default="false" name="DiamondTest.testIsoscelesTriangle3Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Exercises" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
-      <option name="METHOD_NAME" value="testIsoscelesTriangle3Lines" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration default="false" name="DiamondTest.testIsoscelesTriangle4Lines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="PACKAGE_NAME" value="Diamond" />
+      <option name="MAIN_CLASS_NAME" value="Diamond.DiamondTest" />
       <option name="METHOD_NAME" value="testIsoscelesTriangle4Lines" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -355,8 +485,8 @@
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="PACKAGE_NAME" value="Diamond" />
+      <option name="MAIN_CLASS_NAME" value="Diamond.DiamondTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -376,8 +506,8 @@
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="PACKAGE_NAME" value="Diamond" />
+      <option name="MAIN_CLASS_NAME" value="Diamond.DiamondTest" />
       <option name="METHOD_NAME" value="testIsoscelesTriangle5Lines" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -397,10 +527,36 @@
       <module name="Exercises" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DiamondTest" />
+      <option name="PACKAGE_NAME" value="Diamond" />
+      <option name="MAIN_CLASS_NAME" value="Diamond.DiamondTest" />
       <option name="METHOD_NAME" value="testDiamond4Lines" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="FIzzBuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Exercises" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="FIzzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="FIzzBuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -711,19 +867,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle3Lines" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle4Lines" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle5Lines" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.testDiamond4Lines" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle4Lines" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle5Lines" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.testDiamond4Lines" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest.testDiamond4Lines" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle5Lines" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle4Lines" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle3Lines" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondTest.testDiamond4Lines" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle5Lines" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondTest.testIsoscelesTriangle4Lines" />
       </list>
     </recent_temporary>
   </component>
@@ -772,35 +928,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 41m 59s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 16m 50s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 42m 26s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 24m 58s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 42m 47s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 27m 50s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 43m 03s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 28m 06s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 44m 06s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 28m 44s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 44m 46s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 29m 04s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest - 2017.07.14 at 19h 45m 44s.xml">
-      <configuration name="DiamondTest" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 00h 29m 27s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_testDiamond4Lines - 2017.07.14 at 19h 34m 02s.xml">
-      <configuration name="DiamondTest.testDiamond4Lines" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 01h 00m 33s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_testDiamond4Lines - 2017.07.14 at 19h 34m 29s.xml">
-      <configuration name="DiamondTest.testDiamond4Lines" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 01h 01m 08s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DiamondTest_testDiamond4Lines - 2017.07.14 at 19h 38m 23s.xml">
-      <configuration name="DiamondTest.testDiamond4Lines" configurationId="JUnit" />
+    <history-entry file="FizzBuzzTest - 2017.07.15 at 01h 31m 21s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -828,10 +984,10 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3820034" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22071308" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3820034" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26171243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -852,7 +1008,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -869,17 +1025,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="600">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
           <folding>
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/LeftLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Line.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/RightLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Triangle/TriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
@@ -889,15 +1117,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -910,17 +1138,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
@@ -930,15 +1156,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,27 +1177,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TriangleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Triangle/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
@@ -981,15 +1203,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="3" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -998,49 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <marker date="1500054341000" expanded="true" signature="62926:62943" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="62926:62961" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="62926:62974" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="62926:62989" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63024:65632" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63037:65617" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63091:63386" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63110:63371" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63173:63351" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63213:63317" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63234:63295" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63436:63763" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63455:63748" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63550:63728" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63590:63694" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63611:63672" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63814:64133" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63833:64118" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63920:64098" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63960:64064" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="63981:64042" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64176:64482" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64195:64467" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64269:64447" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64309:64413" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64330:64391" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64533:64884" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64552:64869" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64632:64849" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64672:64815" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64693:64793" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64919:65225" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="64938:65210" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65012:65190" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65052:65156" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65073:65134" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65277:65603" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65296:65588" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65390:65568" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65430:65534" ph="..." />
-            <marker date="1500054341000" expanded="true" signature="65451:65512" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,9 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#1638#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,75 +1238,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RightLine.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Diamond/DiamondTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="e#83#84#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Line.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Triangle/TriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="660">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LeftLine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Diamond.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#82#83#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/LeftLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding>
-            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="47" />
-          <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TriangleTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Diamond/RightLine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Triangle/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FIzzBuzz/MyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FIzzBuzz/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="43" column="35" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DiamondTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FIzzBuzz/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        <state relative-caret-position="300">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#145#162#0" expanded="true" />
+            <element signature="e#392#400#0" expanded="true" />
           </folding>
         </state>
       </provider>
