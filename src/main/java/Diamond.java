@@ -7,28 +7,36 @@ public class Diamond {
     public String rightTriangle(int lines) {
         output = "";
         for (int i = 1; i < lines; i++) {
-            output += buildLine(i, "*") + "\n";
+            output += rightLine(lines,i);
         }
         output += buildLine(lines, "*");
         return output;
+    }
+
+    private String rightLine(int lines, int i){
+        return buildLine(i, "*") + buildLine(lines - i, " ") + "\n";
     }
 
     public String leftTriangle(int lines) {
         output = "";
         for (int i = 1; i < lines; i++) {
-            output += buildLine(lines - i, " ") + buildLine(i, "*") + "\n";
+            output += leftLine(lines, i);
         }
         output += buildLine(lines, "*");
         return output;
     }
 
+    private String leftLine(int lines, int i){
+        return buildLine(lines - i, " ") + buildLine(i, "*") + "\n";
+    }
+
     public String isoscelesTriangle(int lines) {
         Scanner leftScanner = new Scanner(leftTriangle(lines));
-        Scanner rightScanner = new Scanner(rightTriangle(lines - 1));
+        Scanner rightScanner = new Scanner(rightTriangle(lines));
 
-        output = leftScanner.nextLine();
+        output = leftScanner.nextLine() + rightScanner.nextLine().substring(1);
         while (leftScanner.hasNextLine()) {
-            output += "\n" + leftScanner.nextLine() + rightScanner.nextLine();
+            output += "\n" + leftScanner.nextLine() + rightScanner.nextLine().substring(1);
         }
         return output;
     }
