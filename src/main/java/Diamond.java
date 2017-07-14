@@ -2,39 +2,28 @@ import java.util.Scanner;
 
 public class Diamond {
 
-    private String output;
-
     public String rightTriangle(int lines) {
-        output = "";
-        for (int i = 1; i < lines; i++) {
-            output += rightLine(lines,i);
-        }
-        output += buildLine(lines, "*");
-        return output;
-    }
-
-    private String rightLine(int lines, int i){
-        return buildLine(i, "*") + buildLine(lines - i, " ") + "\n";
+        return sideTriangle(lines, new RightLine());
     }
 
     public String leftTriangle(int lines) {
-        output = "";
-        for (int i = 1; i < lines; i++) {
-            output += leftLine(lines, i);
-        }
-        output += buildLine(lines, "*");
-        return output;
+        return sideTriangle(lines, new LeftLine());
     }
 
-    private String leftLine(int lines, int i){
-        return buildLine(lines - i, " ") + buildLine(i, "*") + "\n";
+    private String sideTriangle(int lines, Line line) {
+        String output = "";
+        for (int i = 1; i < lines; i++) {
+            output += line.sideLine(lines, i);
+        }
+        output += line.buildLine(lines, "*");
+        return output;
     }
 
     public String isoscelesTriangle(int lines) {
         Scanner leftScanner = new Scanner(leftTriangle(lines));
         Scanner rightScanner = new Scanner(rightTriangle(lines));
 
-        output = leftScanner.nextLine() + rightScanner.nextLine().substring(1);
+        String output = leftScanner.nextLine() + rightScanner.nextLine().substring(1);
         while (leftScanner.hasNextLine()) {
             output += "\n" + leftScanner.nextLine() + rightScanner.nextLine().substring(1);
         }
@@ -42,14 +31,9 @@ public class Diamond {
     }
 
     public String diamondTriangle(int lines) {
-        return new StringBuilder(isoscelesTriangle(lines)).reverse().reverse().toString();
-    }
+        String topIsosceles = isoscelesTriangle(lines);
+        String bottomIsosceles = new StringBuilder(isoscelesTriangle(lines)).reverse().toString();
 
-    private String buildLine(int size, String character) {
-        String _output = "";
-        for (int i = 0; i < size; i++) {
-            _output += character;
-        }
-        return _output;
+        return topIsosceles.substring(0, topIsosceles.lastIndexOf("\n")) + "\n" + bottomIsosceles;
     }
 }

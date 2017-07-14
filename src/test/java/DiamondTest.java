@@ -67,8 +67,15 @@ public class DiamondTest {
 //    public void testDiamond4Lines() {
 //        String diamondTriangle = diamond.diamondTriangle(3);
 ////        new StringBuilder(rightTriangle).reverse().reverse().toString()
-//        assertEquals("  *\n ***\n*****\n ***\n  *", diamondTriangle);
+//        assertEquals("  *  \n *** \n*****\n *** \n  *  ", diamondTriangle);
 //    }
+
+    @Test
+    public void testDiamond4Lines() {
+        String diamondTriangle = diamond.diamondTriangle(3);
+//        new StringBuilder(rightTriangle).reverse().reverse().toString()
+        assertEquals("  *  \n *** \n*****\n *** \n  *  ", diamondTriangle);
+    }
 
 
 }
