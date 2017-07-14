@@ -31,9 +31,17 @@ public class Diamond {
     }
 
     public String diamondTriangle(int lines) {
+        String isoscelesTriangle = isoscelesTriangle(lines);
+        String topIsosceles = isoscelesTriangle.substring(0, isoscelesTriangle.lastIndexOf("\n"));
+        String bottomIsosceles = new StringBuilder(isoscelesTriangle(lines)).reverse().toString();
+
+        return topIsosceles + "\n" + bottomIsosceles;
+    }
+
+    public String diamondWithName(int lines, String name) {
         String topIsosceles = isoscelesTriangle(lines);
         String bottomIsosceles = new StringBuilder(isoscelesTriangle(lines)).reverse().toString();
 
-        return topIsosceles.substring(0, topIsosceles.lastIndexOf("\n")) + "\n" + bottomIsosceles;
+        return topIsosceles + "\n" + name + "\n" + bottomIsosceles;
     }
 }

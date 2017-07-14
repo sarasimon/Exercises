@@ -63,18 +63,22 @@ public class DiamondTest {
         assertEquals("    *    \n   ***   \n  *****  \n ******* \n*********", isoscelesTriangle);
     }
 
-//    @Test
-//    public void testDiamond4Lines() {
-//        String diamondTriangle = diamond.diamondTriangle(3);
-////        new StringBuilder(rightTriangle).reverse().reverse().toString()
-//        assertEquals("  *  \n *** \n*****\n *** \n  *  ", diamondTriangle);
-//    }
+    @Test
+    public void testDiamond3Lines() {
+        String diamondTriangle = diamond.diamondTriangle(3);
+        assertEquals("  *  \n *** \n*****\n *** \n  *  ", diamondTriangle);
+    }
 
     @Test
-    public void testDiamond4Lines() {
-        String diamondTriangle = diamond.diamondTriangle(3);
-//        new StringBuilder(rightTriangle).reverse().reverse().toString()
-        assertEquals("  *  \n *** \n*****\n *** \n  *  ", diamondTriangle);
+    public void testDiamond2LinesWithName() {
+        String diamondTriangle = diamond.diamondWithName(2,"Sara");
+        assertEquals(" * \n***\nSara\n***\n * ", diamondTriangle);
+    }
+
+    @Test
+    public void testDiamond3LinesWithName() {
+        String diamondTriangle = diamond.diamondWithName(3,"Sara");
+        assertEquals("  *  \n *** \n*****\nSara\n*****\n *** \n  *  ", diamondTriangle);
     }
 
 
